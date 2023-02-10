@@ -198,16 +198,9 @@ hr {
     list-style: none;
 }
 
+ 
 
-@font-face {
-    font-family: 'brandicons';
-    src: url('brandicons.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-i {
-    font-family: 'brandicons' !important;
+i { 
     speak: none;
     font-style: normal;
     font-weight: normal;
@@ -216,38 +209,16 @@ i {
     line-height: 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+	color: #5d5de6;
 }
 
-.icon-switch:before {
-    content: "\e9b6";
-}
-.icon-play:before {
-    content: "\ea15";
-}
-.icon-pause:before {
-    content: "\ea16";
-}
-.icon-linkedin:before {
-    content: "\eac9";
-}
-.icon-linkedin:hover {
-    color: #5d5de6;
-}
-.icon-github:before {
-    content: "\eab0";
-}
-.icon-github:hover {
-    color: #5d5de6;
-}
-.icon-mail:before {
-    content: "\ea83";
-}
-.icon-mail:hover {
-    color: #5d5de6;
-}
+
 .connectul i {
 	padding: 8px;
-	font-size: 56px;
+	/** font-size: 56px; **/
+ 	
+	font-size: 32px;
+padding-top: 50px;
 }
 .centeredtxt {
 	text-align: center;
@@ -377,7 +348,11 @@ i:hover {
 
 
 .cert {
-	width: 80%;
+	width: 79%;
+margin-left: auto;
+margin-right: auto;
+display: block;
+padding-top: 25px;
 	
 }
 
