@@ -1,7 +1,147 @@
 <!DOCTYPE html>
-<head>
-	<title>portfolio - szafranic</title>
+<html lang="en"><head>
+	<title>ryan szafranic - portfolio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- CSS/JS -->
+	<link rel="stylesheet" href="v2.css">
+	<meta name="theme-color" content="#5d5de6">
 </head>
 <body>
-	<h1> testing testing...</h1>
-</body>
+    <a href="#top" id="takeit" title="to the top">to the top</a>
+	<header class="parallax p1" id="top">
+		<div class="row headRow">
+			<div class="col-1">
+			</div>
+			<div class="col-6">
+				<ul class="topList">
+				    <li>
+				        <a href="/">
+			                <h1>Szafranic, Ryan</h1>
+				        </a>
+				    </li>
+				    <li>
+			            <h2>Software Developer</h2>
+				    </li>
+				    <hr>
+					<p>
+						Focusing on current technologies such as C#, Angular, and Electron, I am growing my skills of the full stack in software development. 
+						After working jobs dealing with technology hardware and design, I'm getting back onto my path of programming! 
+						In my transition to software I’m looking to keep a growth mindset and learn all I can :)
+					</p>
+				</ul>
+        	</div>
+			<div class="col-4 cont">
+				<img src="cert.jpg" class="mhide cert">
+				<div class="textShade">
+				<h3 class="textClear">Address Book</h3>
+				<div class="centeredtxt">
+					<ul class="nav poplist connectul">
+						<li><a href="https://www.linkedin.com/in/ryanszafranic/"><i class="icon-linkedin skewfix"></i></a></li>
+						<li><a href="https://github.com/szafranic"><i class="icon-github skewfix"></i></a></li>
+						<li><a href="mailto:ryan.szafranic@gmail.com"><i class="icon-mail skewfix"></i></a></li>
+					</ul>
+				</div>
+				</div>
+			</div>
+			<div class="col-1">
+				
+			</div>
+			
+		</div>
+		
+	</header>
+	
+	
+	
+	<div class="parallax p2" id="about">
+	    <div class="">
+			<div class="row">
+				<div class="col-3">
+					<h4>To-Do List</h4>
+					<hr>
+					<div class="projCard">
+						<img src="list.gif">
+						<h5>To-Do List</h5>
+						<p>My little Angular to-do list! You can check the code out <a href="https://github.com/szafranic/AngularTodo">here</a>!</p>
+					</div>
+				</div>
+				<div class="col-3">
+					<h4>stormyDL</h4>
+					<hr>
+					<div class="projCard">
+						<img src="cart.jpg">
+						<h5>stormyDL</h5>
+						<p>Mockup of a music storefront with an item cart/receipt calculator. Made in C#/.NET Framework with SQL(SSMS) and some Javascript. Check out the repo <a href="https://github.com/szafranic/stormyDL">here</a>!</p>
+					</div>
+				</div>
+				<div class="col-3">
+					<h4>Group Projects</h4>
+					<hr>
+					<div class="projCard">
+						<iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/Cic81LxrDfM?controls=0&amp;start=6822" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+						<h5>Purrfect Pals Adoption</h5>
+						<p>This cat adoption tracking website uses APIs from animal shelters to show you pals in nearest to your zip code! It takes data from each cat to give you a price range estimate. You can also set up an account through Google to save pets, take notes, and send the cutest cats to a leaderboard gallery!</p>
+						<ul>
+							<li>This project was made with <a href="https://www.linkedin.com/in/abilena-thomas/">Abilena Thomas</a> and <a href="https://www.linkedin.com/in/jessica-whiting-profile/">Jessie Whiting</a>! Our repo is <a href="https://github.com/jessieWhiting/Purrfect-FinalProject">here</a>.</li>
+							<li>We used C# for our internal API and getting OAuth tokens</li>
+							<li>Angular as our web framework</li>
+							<li>SQL our accounts, shelter data, and cutest cats list. Hosted on Azure.</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-3">
+					<h4 class="mhide">Group Projects (cont. :)</h4>
+					<hr class="mhide">
+					<div class="projCard">
+						<img src="upmeet.jpg">
+						<h5>Upmeet</h5>
+						<p>This event tracking website lets users find and post concerts, gatherings, and more social events! It gives locations, expected sizes, and hosts as well as support for images for flyers.</p>
+						<ul>
+							<li>This project was made with <a href="https://www.linkedin.com/in/r1s/">Rone S</a> and <a href="https://www.linkedin.com/in/seanripper/">Sean Ripper</a>!</li>
+							<li>We used C# for our internal API and event management</li>
+							<li>Angular as our web framework</li>
+							<li>SQL for our event database</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="paralax p3">
+		<div class="row">
+			<div class="col-12">
+			<h4>Upcoming Projects</h4>
+			<hr>
+			<div class="col-4">		
+				<div class="projCard">
+						<h5>lyricList</h5>
+						<p>While starting to learn React, I've been sketching out <a href="https://github.com/szafranic/lyricList_android">here!</a></p>
+				</div>
+			</div>
+		
+			<div class="col-4">
+				<div class="projCard">
+						<h5>ytLocal</h5>
+						<p>The internet is a very volatile place - everything you don't want saved gets saved - but somehow that YouTube video you've always been looking for ended up privated!
+						There are already some great command line and GUI tools to download videos in any mix of video and audio formats, but viewing them? Quite tedious.</p>
+						<p>I'm currently blocking out a project in Electron with a great library for scanning user files called <a href="https://github.com/paulmillr/chokidar">Chokidar</a>. 
+						It gives the advantage of being more effecient than node.js' built in file system watcher while also reporting full paths + filenames on all platforms! </p>
+				</div>
+			</div>
+			<div class="col-4">		
+				<div class="projCard">
+						<h5></h5>
+						<p></p>
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="paralax p4">
+		<p class="foot mhide">©2023 szafranic | v2</p>
+	</div>
+
+
+</body></html>
